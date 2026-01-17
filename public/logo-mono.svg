@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Leverage Lab logo - mono">
+  <defs></defs>
+  <g transform="translate(0,30)" fill="#14253B">
+    <g transform="translate(200,130)">
+      <g transform="translate(-70,120)">
+        <circle cx="80" cy="80" r="64" />
+        <g transform="translate(80,80)">
+          <rect x="-8" y="-110" width="16" height="30" rx="4"/>
+          <rect x="-8" y="80" width="16" height="30" rx="4"/>
+          <rect x="-110" y="-8" width="30" height="16" rx="4" transform="rotate(90)"/>
+          <rect x="80" y="-8" width="30" height="16" rx="4" transform="rotate(90)"/>
+        </g>
+        <circle cx="80" cy="80" r="18"/>
+      </g>
+
+      <g transform="translate(170,0)">
+        <path d="M10,100 C10,40 80,10 140,30 C200,50 240,100 220,150 C200,200 140,220 80,200 C20,180 10,140 10,100Z" />
+        <g>
+          <circle cx="40" cy="120" r="6"/>
+          <circle cx="70" cy="95" r="6"/>
+          <circle cx="110" cy="110" r="6"/>
+          <circle cx="150" cy="85" r="6"/>
+          <circle cx="190" cy="105" r="6"/>
+        </g>
+      </g>
+
+      <g transform="translate(140,220)">
+        <rect x="0" y="0" width="180" height="60" rx="10" />
+      </g>
+    </g>
+
+    <g transform="translate(520,220)">
+      <text x="0" y="42" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="24">Streamline. Automate. Elevate.</text>
+      <text x="0" y="110" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="72" letter-spacing="2">LEVERAGE LAB</text>
+    </g>
+  </g>
+</svg>

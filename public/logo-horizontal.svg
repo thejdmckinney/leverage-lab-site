@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="300" viewBox="0 0 1400 300" role="img" aria-label="Leverage Lab horizontal logo">
+  <defs>
+    <linearGradient id="lgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18A8A8"/>
+      <stop offset="50%" stop-color="#36D6C8"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60,30)">
+    <!-- Icon left -->
+    <g transform="translate(0,20)">
+      <circle cx="80" cy="80" r="64" fill="url(#lgGradient)"/>
+      <g transform="translate(80,80)" fill="url(#lgGradient)">
+        <rect x="-8" y="-110" width="16" height="30" rx="4"/>
+        <rect x="-8" y="80" width="16" height="30" rx="4"/>
+        <rect x="-110" y="-8" width="30" height="16" rx="4" transform="rotate(90)"/>
+        <rect x="80" y="-8" width="30" height="16" rx="4" transform="rotate(90)"/>
+      </g>
+      <circle cx="140" cy="40" r="36" fill="url(#lgGradient)"/>
+      <rect x="110" y="140" width="220" height="60" rx="10" fill="url(#lgGradient)"/>
+    </g>
+
+    <!-- Wordmark right -->
+    <g transform="translate(320,40)">
+      <text x="0" y="36" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="18" fill="#14253B">Streamline. Automate. Elevate.</text>
+
+      <text x="0" y="110" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="64" fill="url(#lgGradient)" letter-spacing="2">LEVERAGE LAB</text>
+    </g>
+  </g>
+</svg>

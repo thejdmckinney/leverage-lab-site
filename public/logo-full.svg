@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Leverage Lab wordmark">
+  <defs>
+    <linearGradient id="lgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18A8A8"/>
+      <stop offset="50%" stop-color="#36D6C8"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(40,30)">
+    <text x="0" y="45" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="20" fill="#14253B">Streamline. Automate. Elevate.</text>
+    <text x="0" y="130" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="92" fill="url(#lgGradient)" letter-spacing="2">LEVERAGE LAB</text>
+  </g>
+</svg>
