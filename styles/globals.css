@@ -5,14 +5,23 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   body {
     @apply font-sans text-gray-900;
+    -webkit-tap-highlight-color: transparent;
   }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
+  }
+  
+  /* Improve touch targets for mobile */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
   }
 }
 
@@ -31,5 +40,22 @@
   
   .section-padding {
     @apply py-16 md:py-24;
+  }
+  
+  /* Mobile-optimized text sizes */
+  .text-responsive {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+  
+  /* Prevent text selection on buttons for better mobile UX */
+  .btn-primary, .btn-secondary {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Improve mobile form inputs */
+  input, textarea, select {
+    @apply text-base;
+    font-size: 16px !important; /* Prevents zoom on iOS */
   }
 }

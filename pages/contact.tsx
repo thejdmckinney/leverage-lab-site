@@ -28,12 +28,14 @@ export default function Contact() {
           content="Contact Leverage Lab for AI and automation services in Dallas-Fort Worth. Schedule a free 30-minute discovery call to discuss workflow automation for your DFW business. Serving Dallas, Fort Worth, Plano, Frisco & surrounding areas."
         />
         <meta name="keywords" content="contact automation consultant Dallas, AI consultant DFW, automation services Dallas contact, workflow automation Fort Worth, business automation Dallas" />
+        <link rel="canonical" href="https://leveragelab.co/contact" />
         <meta property="og:title" content="Contact Dallas-Fort Worth Automation Experts | Leverage Lab" />
         <meta
           property="og:description"
           content="Schedule a free discovery call or contact us to discuss your automation needs."
         />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://leveragelab.co/og-image.png" />
         <meta property="og:url" content="https://leveragelab.co/contact" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

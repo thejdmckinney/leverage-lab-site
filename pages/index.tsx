@@ -17,6 +17,7 @@ export default function Home() {
           content="Professional AI and workflow automation services in Dallas-Fort Worth (DFW). Save 10-15 hours weekly with proven automation solutions for contractors, retailers, and service businesses. Serving Dallas, Fort Worth, Plano, Frisco & DFW metroplex."
         />
         <meta name="keywords" content="automation services Dallas, AI consulting DFW, workflow automation Fort Worth, business automation Dallas, AI services Dallas-Fort Worth, process automation DFW" />
+        <link rel="canonical" href="https://leveragelab.co" />
         <meta
           property="og:title"
           content="AI & Automation Services Dallas-Fort Worth | Leverage Lab"
@@ -25,7 +26,8 @@ export default function Home() {
           property="og:description"
           content="Professional AI and workflow automation services in Dallas-Fort Worth. Save 10-15 hours weekly with proven automation solutions. Serving the entire DFW metroplex."
         />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://leveragelab.co/og-image.png" />
         <meta property="og:url" content="https://leveragelab.co" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -36,7 +38,7 @@ export default function Home() {
           name="twitter:description"
           content="Practical AI and workflow automation for local businesses."
         />
-        <meta name="twitter:image" content="/og-image.png" />
+        <meta name="twitter:image" content="https://leveragelab.co/og-image.png" />
       </Head>
 
       <Nav />

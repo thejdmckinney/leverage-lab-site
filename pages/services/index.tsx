@@ -13,12 +13,14 @@ export default function Services() {
           content="Transparent automation services pricing for Dallas-Fort Worth businesses. One-time $750 audit or monthly retainer ($500-$3,000). AI implementation, workflow automation, and process optimization for DFW small businesses and enterprises."
         />
         <meta name="keywords" content="automation services pricing Dallas, AI consulting rates DFW, automation packages Fort Worth, business automation cost Dallas, workflow automation pricing DFW" />
+        <link rel="canonical" href="https://leveragelab.co/services" />
         <meta property="og:title" content="Automation Services & Pricing Dallas-Fort Worth | Leverage Lab" />
         <meta
           property="og:description"
           content="Clear pricing for Dallas-Fort Worth automation services. $750 audit or monthly retainer packages starting at $500. Serving the entire DFW metroplex."
         />
-        <meta property="og:image" content="/og-image.svg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://leveragelab.co/og-image.svg" />
         <meta property="og:url" content="https://leveragelab.co/services" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

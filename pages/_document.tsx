@@ -7,6 +7,16 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        {/* Essential Mobile Meta Tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+        <meta name="theme-color" content="#18A8A8" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        
+        {/* Performance & SEO */}
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="format-detection" content="telephone=no" />
+        
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -21,6 +31,7 @@ export default function Document() {
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
 
         {/* Google Analytics */}
         {GA_MEASUREMENT_ID && (
