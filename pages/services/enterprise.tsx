@@ -4,24 +4,24 @@ import Hero from '@/components/Hero'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
-export default function AutomationAudit() {
+export default function EnterpriseTier() {
   return (
     <>
       <Head>
-        <title>$750 Automation Audit Dallas-Fort Worth | Leverage Lab</title>
+        <title>$3,000/Month Enterprise Automation & AI Dallas-Fort Worth | Leverage Lab</title>
         <meta
           name="description"
-          content="Professional automation audit for Dallas-Fort Worth businesses. 90-minute discovery call + comprehensive report with 5-10 ROI-ranked opportunities. Save 10-15 hours weekly. Serving DFW contractors, retailers & service businesses. $750 one-time."
+          content="Enterprise automation & AI for Dallas-Fort Worth businesses. $3,000/month includes 30 hours support, unlimited automations, custom AI training, weekly calls, same-day support. For 50+ employee DFW companies. Save 20-30 hours weekly."
         />
-        <meta name="keywords" content="automation audit Dallas, business process audit DFW, workflow analysis Fort Worth, operations audit Dallas, automation opportunities DFW" />
+        <meta name="keywords" content="enterprise automation Dallas, digital transformation DFW, custom AI Dallas, enterprise AI consulting Fort Worth, business transformation DFW" />
       </Head>
 
       <Nav />
 
       <Hero
-        title="Automation Audit"
-        subtitle="Discover your highest-impact automation opportunities with a comprehensive operations analysis"
-        ctaText="Book Your Audit"
+        title="Enterprise Tier"
+        subtitle="Comprehensive digital transformation for established businesses"
+        ctaText="Get Started"
         ctaLink="/get-started"
         showSecondary={false}
       />
@@ -33,18 +33,18 @@ export default function AutomationAudit() {
             <div className="flex items-center justify-between flex-wrap gap-4 mb-8">
               <div>
                 <div className="text-5xl font-bold text-brand-teal mb-2">
-                  $750
+                  $3,000<span className="text-2xl text-gray-600">/month</span>
                 </div>
-                <p className="text-gray-600">One-time engagement</p>
+                <p className="text-gray-600">Up to 30 hours of support monthly</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://buy.stripe.com/00w3co3W39B40Jh2tv0Jq00"
+                  href="https://buy.stripe.com/fZufZa0JR14yajR3xz0Jq03"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary inline-block px-8 py-4 text-center"
                 >
-                  Get Your Audit Now
+                  Start Subscription
                 </a>
                 <a
                   href="https://calendly.com/jeremy-leveragelab/discovery-call-leverage-lab"
@@ -69,7 +69,13 @@ export default function AutomationAudit() {
                 <svg className="w-5 h-5 text-brand-teal mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Full refund if canceled 48hrs before call</span>
+                <span>Cancel anytime</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-5 h-5 text-brand-teal mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Dedicated support team</span>
               </div>
             </div>
 
@@ -78,15 +84,19 @@ export default function AutomationAudit() {
                 Who This Is For
               </h2>
               <p className="text-lg text-gray-600 mb-4">
-                Perfect for business owners and operations managers who:
+                <strong>Ideal for: Established businesses with 50+ employees</strong> or companies undergoing major digital transformation initiatives.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Perfect if you:
               </p>
               <ul className="space-y-3">
                 {[
-                  'Spend hours on repetitive manual tasks each week',
-                  'Want to explore automation but don\'t know where to start',
-                  'Need to justify automation investment with data and ROI projections',
-                  'Are considering hiring but wonder if automation could solve the problem',
-                  'Have a tech stack but aren\'t sure if tools are being used effectively',
+                  'Need a dedicated automation and AI partner embedded in your operations',
+                  'Have complex, multi-department processes requiring coordination',
+                  'Want custom AI models trained on your specific data and use cases',
+                  'Require enterprise-grade integrations and advanced technical solutions',
+                  'Need strategic guidance on leveraging AI for competitive advantage',
+                  'Want team training and change management support included',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
                     <svg
@@ -125,18 +135,17 @@ export default function AutomationAudit() {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      60-90 Minute Discovery Call
+                      Unlimited Automations and AI Implementations
                     </h3>
                     <p className="text-gray-600">
-                      Deep dive into your current operations, tools, workflows,
-                      and pain points. We'll walk through a typical week in your
-                      business to identify repetitive tasks.
+                      No limits on the number or complexity of automations. We work across your entire 
+                      organization to automate and optimize every department and process.
                     </p>
                   </div>
                 </div>
@@ -153,18 +162,98 @@ export default function AutomationAudit() {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Tech Stack Documentation
+                      Custom AI Model Training & Fine-Tuning
                     </h3>
                     <p className="text-gray-600">
-                      Complete inventory of your current tools, how they're
-                      connected (or not), and where data flows are breaking down
-                      or causing manual work.
+                      Train custom AI models on your proprietary data, fine-tune for your specific 
+                      use cases, and deploy specialized AI agents for your unique business needs.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-brand-teal/10 rounded-lg p-3 mr-4">
+                    <svg
+                      className="w-6 h-6 text-brand-teal"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                      Full Business Process Analysis & Optimization
+                    </h3>
+                    <p className="text-gray-600">
+                      Comprehensive analysis of your entire operation, identification of inefficiencies, 
+                      and strategic recommendations for process improvements beyond just automation.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-brand-teal/10 rounded-lg p-3 mr-4">
+                    <svg
+                      className="w-6 h-6 text-brand-teal"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                      Weekly 60-Minute Strategy Calls
+                    </h3>
+                    <p className="text-gray-600">
+                      Regular strategic sessions with your leadership team to review progress, plan 
+                      initiatives, discuss challenges, and align on priorities.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-brand-teal/10 rounded-lg p-3 mr-4">
+                    <svg
+                      className="w-6 h-6 text-brand-teal"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                      Dedicated Slack Channel (Same-Day Response)
+                    </h3>
+                    <p className="text-gray-600">
+                      Direct access to our team via dedicated Slack channel with same-day response 
+                      guarantee. For urgent issues, we're available for immediate support.
                     </p>
                   </div>
                 </div>
@@ -187,12 +276,11 @@ export default function AutomationAudit() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      5-10 Automation Opportunities (Ranked by ROI)
+                      Monthly Performance Reports with ROI Analysis
                     </h3>
                     <p className="text-gray-600">
-                      Detailed analysis of specific automations you can
-                      implement, prioritized by time savings, cost impact, and
-                      ease of implementation.
+                      Detailed monthly reports showing automation performance, time/cost savings, 
+                      error reduction, and quantified ROI of all implementations.
                     </p>
                   </div>
                 </div>
@@ -209,19 +297,17 @@ export default function AutomationAudit() {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
                       />
                     </svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Professional Written Report
+                      Team Training & Documentation
                     </h3>
                     <p className="text-gray-600">
-                      Comprehensive PDF report including all findings,
-                      recommendations, estimated time/cost savings, and an
-                      implementation roadmap you can execute yourself or hand off
-                      to your team.
+                      Comprehensive training for your team, detailed documentation, video tutorials, 
+                      and ongoing support to ensure everyone can use and maintain the automations.
                     </p>
                   </div>
                 </div>
@@ -238,18 +324,17 @@ export default function AutomationAudit() {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                        d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
                       />
                     </svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      30-Minute Follow-Up Call
+                      Integration Across Unlimited Tools
                     </h3>
                     <p className="text-gray-600">
-                      Review findings together, answer questions, discuss
-                      implementation options, and create your next-step action
-                      plan.
+                      Connect as many systems as needed - CRM, ERP, marketing automation, project 
+                      management, accounting, HR systems, databases, and custom applications.
                     </p>
                   </div>
                 </div>
@@ -267,12 +352,12 @@ export default function AutomationAudit() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Book Your Discovery Call
+                      Enterprise Discovery & Planning
                     </h3>
                     <p className="text-gray-600">
-                      Schedule a 60-90 minute video call at a time that works for
-                      you. We'll send a brief questionnaire beforehand to make
-                      the most of our time together.
+                      Multi-day engagement with leadership and key stakeholders across departments. 
+                      We map current state, identify transformation opportunities, and create a 
+                      comprehensive 12-month automation roadmap.
                     </p>
                   </div>
                 </div>
@@ -283,12 +368,12 @@ export default function AutomationAudit() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Discovery & Documentation
+                      Phased Implementation
                     </h3>
                     <p className="text-gray-600">
-                      We'll walk through your operations together, documenting
-                      workflows, pain points, and repetitive tasks. This is a
-                      collaborative process - bring your team if helpful.
+                      We work in quarterly phases, prioritizing high-impact initiatives first. Each 
+                      phase includes implementation, testing, team training, and performance measurement 
+                      before moving to the next.
                     </p>
                   </div>
                 </div>
@@ -299,28 +384,12 @@ export default function AutomationAudit() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Analysis & Report Creation
+                      Continuous Improvement & Support
                     </h3>
                     <p className="text-gray-600">
-                      Our team analyzes your workflows, researches tools and
-                      solutions, and creates a comprehensive report with
-                      prioritized recommendations. <em>This typically takes 3-5 business days.</em>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-brand-teal text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl mr-4 flex-shrink-0">
-                    4
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Review & Action Planning
-                    </h3>
-                    <p className="text-gray-600">
-                      We'll walk through the report together, answer questions,
-                      discuss implementation options, and help you decide which
-                      automations to tackle first.
+                      Weekly check-ins, monthly performance reviews, and quarterly strategic planning 
+                      sessions keep us aligned. We continuously identify new opportunities and optimize 
+                      existing systems for maximum impact.
                     </p>
                   </div>
                 </div>
@@ -329,26 +398,29 @@ export default function AutomationAudit() {
 
             <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                Tools We Work With
+                Tools We Use
               </h2>
               <p className="text-gray-600 mb-4">
-                We're platform-agnostic and work with whatever tools you currently
-                use. Common tools we analyze and recommend include:
+                Enterprise tier leverages the full spectrum of automation and AI technologies:
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[
-                  'Zapier / Make',
-                  'Google Workspace',
-                  'Microsoft 365',
-                  'HubSpot',
+                  'n8n (self-hosted)',
+                  'Custom AI Agents',
+                  'ChatGPT Enterprise',
+                  'Claude (fine-tuned)',
+                  'Advanced BI Dashboards',
+                  'Database Automation',
+                  'Enterprise CRM/ERP',
                   'Salesforce',
-                  'Monday.com',
-                  'Airtable',
-                  'Notion',
-                  'Slack',
-                  'QuickBooks',
-                  'Calendly',
-                  'ChatGPT / Claude API',
+                  'HubSpot Enterprise',
+                  'SAP Integration',
+                  'Custom APIs',
+                  'Webhook Management',
+                  'Python/JavaScript',
+                  'Cloud Functions',
+                  'Docker Containers',
+                  '...and any tool you need',
                 ].map((tool, index) => (
                   <div
                     key={index}
@@ -362,46 +434,60 @@ export default function AutomationAudit() {
 
             <div className="bg-brand-teal/10 rounded-xl p-8 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Example Results
+                Enterprise Use Cases
               </h2>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6">
                   <h3 className="font-semibold text-gray-900 mb-2">
-                    🏗️ Construction Company (12 employees)
+                    🏢 Complete ERP-CRM Integration
                   </h3>
-                  <p className="text-gray-600 mb-3">
-                    Identified opportunities to automate project status updates,
-                    client invoicing, and equipment maintenance tracking.
-                  </p>
-                  <p className="text-brand-teal font-semibold">
-                    Estimated savings: 15 hours/week across the team
+                  <p className="text-gray-600">
+                    Full bidirectional sync between Salesforce and SAP, automated order processing, 
+                    inventory management, invoicing, and financial reporting. Eliminated manual data 
+                    entry across 50+ employees.
                   </p>
                 </div>
 
                 <div className="bg-white rounded-lg p-6">
                   <h3 className="font-semibold text-gray-900 mb-2">
-                    🏪 Retail Business (8 employees)
+                    🤖 Custom AI Support Agent
                   </h3>
-                  <p className="text-gray-600 mb-3">
-                    Found ways to automate inventory alerts, customer follow-ups,
-                    and social media posting for new products.
-                  </p>
-                  <p className="text-brand-teal font-semibold">
-                    Estimated savings: 12 hours/week + improved customer
-                    engagement
+                  <p className="text-gray-600">
+                    Fine-tuned Claude model trained on 10 years of support tickets and documentation. 
+                    Handles tier-1 support 24/7, reduces ticket volume by 60%, and escalates complex 
+                    issues with full context to human agents.
                   </p>
                 </div>
 
                 <div className="bg-white rounded-lg p-6">
                   <h3 className="font-semibold text-gray-900 mb-2">
-                    💼 Consulting Firm (5 employees)
+                    📊 Executive AI Dashboard
                   </h3>
-                  <p className="text-gray-600 mb-3">
-                    Recommended automations for client onboarding, proposal
-                    generation, and time tracking/invoicing.
+                  <p className="text-gray-600">
+                    Real-time dashboard pulling data from 15+ systems, AI-powered insights and 
+                    anomaly detection, automated weekly executive reports, predictive analytics for 
+                    sales and cash flow.
                   </p>
-                  <p className="text-brand-teal font-semibold">
-                    Estimated savings: 10 hours/week + faster client onboarding
+                </div>
+
+                <div className="bg-white rounded-lg p-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    🔄 Multi-Department Process Automation
+                  </h3>
+                  <p className="text-gray-600">
+                    End-to-end automation from lead capture through customer onboarding, project 
+                    delivery, invoicing, and support. Coordinated workflows across sales, operations, 
+                    finance, and customer success teams.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-lg p-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    📝 Intelligent Document Workflows
+                  </h3>
+                  <p className="text-gray-600">
+                    AI-powered contract analysis, automated approval routing, electronic signatures, 
+                    archive management. Processes 1000+ documents monthly with 99.5% accuracy.
                   </p>
                 </div>
               </div>
@@ -414,69 +500,68 @@ export default function AutomationAudit() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Do I need to have specific software or a CRM?
+                    How is Enterprise different from Growth tier?
                   </h3>
                   <p className="text-gray-600">
-                    Not at all! We work with whatever tools you currently use -
-                    even if it's just email and spreadsheets. Part of the audit
-                    includes recommending tools if needed, but we focus on
-                    automating your existing workflows first.
+                    Enterprise includes 2x the hours (30 vs 15), unlimited automations, custom AI 
+                    training, weekly strategic calls, same-day support, team training, monthly ROI 
+                    reports, and integration across unlimited systems. It's designed for organizations 
+                    ready for comprehensive transformation.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    What if I'm not ready to implement automations yet?
+                    Do you work with legacy systems?
                   </h3>
                   <p className="text-gray-600">
-                    That's perfectly fine! Many clients use the audit for
-                    strategic planning and implement gradually as resources allow.
-                    The report is yours to keep and execute on your timeline. Some
-                    clients implement themselves, others hire us or another team
-                    later.
+                    Yes. We have experience integrating with older systems, mainframes, and custom 
+                    applications. If it has an API, database access, or even just exports, we can 
+                    usually integrate it.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Can you help us implement the recommended automations?
+                    What if we need more than 30 hours?
                   </h3>
                   <p className="text-gray-600">
-                    Absolutely! Most clients who want implementation choose our{' '}
-                    <Link href="/services/starter" className="text-brand-teal hover:underline">
-                      Starter
-                    </Link>{' '}
-                    or{' '}
-                    <Link href="/services/growth" className="text-brand-teal hover:underline">
-                      Growth
-                    </Link>{' '}
-                    monthly retainer depending on the complexity and number of
-                    automations. We'll provide pricing options during the
-                    follow-up call.
+                    For large transformation projects, we can scale our team to meet your needs. 
+                    Additional hours are available at $150/hour, or we can create a custom enterprise 
+                    plan with dedicated resources.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    How technical does my team need to be?
+                    How do you handle data security and compliance?
                   </h3>
                   <p className="text-gray-600">
-                    Not technical at all! We explain everything in plain language
-                    and focus on business outcomes, not technical jargon. If you
-                    can use email and a web browser, you can benefit from this
-                    audit.
+                    We follow enterprise security best practices including data encryption, SOC 2 
+                    compliant tools where required, proper access controls, and can sign BAAs for 
+                    HIPAA compliance. We can work within your security policies and requirements.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    What happens after the audit?
+                    What's the minimum commitment?
                   </h3>
                   <p className="text-gray-600">
-                    You'll have a clear roadmap you can use however you'd like:
-                    implement yourself, hire your own team, or engage us for
-                    implementation. There's no pressure or obligation - the audit
-                    stands on its own as a valuable planning document.
+                    12-month minimum for Enterprise tier given the strategic nature and scope of work. 
+                    Most enterprise clients engage for multi-year partnerships as we become deeply 
+                    embedded in their operations and continue finding new opportunities.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    Can you help with change management?
+                  </h3>
+                  <p className="text-gray-600">
+                    Absolutely. We include team training, comprehensive documentation, and support 
+                    throughout the transition. We can work with your change management team or provide 
+                    guidance on rollout strategy to ensure adoption.
                   </p>
                 </div>
               </div>
@@ -484,20 +569,20 @@ export default function AutomationAudit() {
 
             <div className="text-center bg-gradient-brand text-white rounded-xl p-8">
               <h2 className="text-3xl font-bold mb-4">
-                Ready to Discover Your Automation Opportunities?
+                Ready for Enterprise Transformation?
               </h2>
               <p className="text-xl text-white/90 mb-6 max-w-2xl mx-auto">
-                Most clients identify opportunities to save 10+ hours per week,
-                paying back the audit cost in the first month.
+                Book a discovery call to discuss your transformation goals. We'll create a custom 
+                roadmap and ROI projection for your organization.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                 <a
-                  href="https://buy.stripe.com/00w3co3W39B40Jh2tv0Jq00"
+                  href="https://buy.stripe.com/fZufZa0JR14yajR3xz0Jq03"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-brand-teal bg-white rounded-lg hover:bg-gray-100 transition-all duration-200 shadow-lg"
                 >
-                  Get Your Audit Now - $750
+                  Start Subscription - $3,000/mo
                 </a>
                 <a
                   href="https://calendly.com/jeremy-leveragelab/discovery-call-leverage-lab"
@@ -509,12 +594,12 @@ export default function AutomationAudit() {
                 </a>
               </div>
               <p className="text-white/80 text-sm">
-                Secure checkout via Stripe • Full refund if canceled 48hrs before call
+                Secure checkout via Stripe • Cancel anytime after 12-month minimum
               </p>
               <p className="text-white/80 mt-4">
-                Or view our{' '}
+                Or view{' '}
                 <Link href="/services" className="underline hover:text-white">
-                  monthly retainer services
+                  all service tiers
                 </Link>
               </p>
             </div>

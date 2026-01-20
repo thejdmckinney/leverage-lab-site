@@ -11,15 +11,15 @@ interface CTAProps {
 export default function CTA({
   title,
   description,
-  buttonText = 'Book a Demo',
-  buttonLink = '/contact',
+  buttonText = 'Get Started',
+  buttonLink = '/get-started',
   variant = 'gradient',
 }: CTAProps) {
   const bgClass =
     variant === 'gradient' ? 'bg-gradient-brand text-white' : 'bg-gray-50'
   const buttonClass =
     variant === 'gradient'
-      ? 'bg-white text-brand-teal hover:bg-gray-50'
+      ? 'inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-white/20 backdrop-blur-sm border-2 border-white rounded-lg hover:bg-white hover:text-brand-teal transition-all duration-200 shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2'
       : 'bg-gradient-brand text-white hover:shadow-xl'
 
   return (

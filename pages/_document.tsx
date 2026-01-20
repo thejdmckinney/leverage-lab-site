@@ -50,12 +50,13 @@ export default function Document() {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'LocalBusiness',
+              '@type': 'ProfessionalService',
               name: 'Leverage Lab',
               description:
-                'Practical AI and workflow automation for contractors, retailers and local service businesses.',
+                'AI and workflow automation services for Dallas-Fort Worth businesses. Helping contractors, retailers, and service businesses save 10-15 hours weekly through practical automation solutions.',
               url: 'https://leveragelab.co',
               telephone: '[PHONE_NUMBER]',
+              priceRange: '$$',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '[ADDRESS_LINE1]',
@@ -69,6 +70,38 @@ export default function Document() {
                 latitude: '32.7767',
                 longitude: '-96.7970',
               },
+              areaServed: [
+                {
+                  '@type': 'City',
+                  name: 'Dallas',
+                  '@id': 'https://en.wikipedia.org/wiki/Dallas',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Fort Worth',
+                  '@id': 'https://en.wikipedia.org/wiki/Fort_Worth,_Texas',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Plano',
+                  '@id': 'https://en.wikipedia.org/wiki/Plano,_Texas',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Frisco',
+                  '@id': 'https://en.wikipedia.org/wiki/Frisco,_Texas',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Arlington',
+                  '@id': 'https://en.wikipedia.org/wiki/Arlington,_Texas',
+                },
+                {
+                  '@type': 'City',
+                  name: 'Irving',
+                  '@id': 'https://en.wikipedia.org/wiki/Irving,_Texas',
+                },
+              ],
               openingHoursSpecification: [
                 {
                   '@type': 'OpeningHoursSpecification',

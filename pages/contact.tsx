@@ -22,15 +22,16 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us | Leverage Lab</title>
+        <title>Contact Dallas-Fort Worth Automation Experts | Leverage Lab</title>
         <meta
           name="description"
-          content="Book a free 20-minute demo or get in touch to discuss your automation needs. We're here to help streamline your business operations."
+          content="Contact Leverage Lab for AI and automation services in Dallas-Fort Worth. Schedule a free 30-minute discovery call to discuss workflow automation for your DFW business. Serving Dallas, Fort Worth, Plano, Frisco & surrounding areas."
         />
-        <meta property="og:title" content="Contact Us | Leverage Lab" />
+        <meta name="keywords" content="contact automation consultant Dallas, AI consultant DFW, automation services Dallas contact, workflow automation Fort Worth, business automation Dallas" />
+        <meta property="og:title" content="Contact Dallas-Fort Worth Automation Experts | Leverage Lab" />
         <meta
           property="og:description"
-          content="Book a demo or contact us to discuss your automation needs."
+          content="Schedule a free discovery call or contact us to discuss your automation needs."
         />
         <meta property="og:image" content="/og-image.png" />
         <meta property="og:url" content="https://leveragelab.co/contact" />
@@ -42,8 +43,8 @@ export default function Contact() {
       <main>
         <Hero
           title="Let's Talk Automation"
-          subtitle="Book a 20-minute demo or send us a message. We'll show you exactly how automation can save you time and grow your business."
-          ctaText="Scroll to Book Demo"
+          subtitle="Schedule a free 30-minute discovery call or send us a message. We'll discuss your specific needs and show you exactly how automation can save you time and grow your business."
+          ctaText="Schedule Free Discovery Call"
           ctaLink="#calendly"
           showSecondary={false}
         />
@@ -57,19 +58,16 @@ export default function Contact() {
                   id="calendly"
                   className="text-3xl font-bold mb-6 text-gray-900"
                 >
-                  Book a 20-Minute Demo
+                  Schedule a Free 30-Minute Discovery Call
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Choose a time that works for you. We'll walk through your
-                  current workflows and show you specific automation
-                  opportunities for your business.
+                  Choose a time that works for you. We'll discuss your current workflows, 
+                  biggest challenges, and show you specific automation opportunities for your business. 
+                  This is a completely free consultation with no obligation.
                 </p>
                 <div
                   className="calendly-inline-widget"
-                  data-url={
-                    process.env.CALENDLY_EMBED_URL ||
-                    'https://calendly.com/your-calendly-username/20min'
-                  }
+                  data-url="https://calendly.com/jeremy-leveragelab/discovery-call-leverage-lab"
                   style={{ minWidth: '320px', height: '630px' }}
                 ></div>
               </div>

@@ -14,7 +14,7 @@ export default function Hero({
   title,
   subtitle,
   ctaText = 'Book a Demo',
-  ctaLink = '/contact',
+  ctaLink = '/get-started',
   showSecondary = true,
   secondaryText = 'Learn More',
   secondaryLink = '/services/audit',
@@ -35,7 +35,7 @@ export default function Hero({
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href={ctaLink}
-              className="btn-primary bg-white text-brand-teal hover:bg-gray-50 w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-white/20 backdrop-blur-sm border-2 border-white rounded-lg hover:bg-white hover:text-brand-teal transition-all duration-200 w-full sm:w-auto shadow-lg"
               onClick={() => {
                 if (window.gtag) {
                   window.gtag('event', 'book_demo_click', {

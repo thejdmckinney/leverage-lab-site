@@ -31,6 +31,12 @@ export default function Nav() {
               </button>
               <div className="absolute left-0 mt-2 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link
+                  href="/services"
+                  className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-brand-teal transition-colors border-b border-gray-100 font-semibold"
+                >
+                  All Services
+                </Link>
+                <Link
                   href="/services/audit"
                   className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-brand-teal transition-colors"
                 >
@@ -40,7 +46,19 @@ export default function Nav() {
                   href="/services/starter"
                   className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-brand-teal transition-colors"
                 >
-                  Automation Starter
+                  Starter Tier
+                </Link>
+                <Link
+                  href="/services/growth"
+                  className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-brand-teal transition-colors"
+                >
+                  Growth Tier
+                </Link>
+                <Link
+                  href="/services/enterprise"
+                  className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-brand-teal transition-colors"
+                >
+                  Enterprise Tier
                 </Link>
               </div>
             </div>
@@ -51,18 +69,18 @@ export default function Nav() {
               Contact
             </Link>
             <Link
-              href="/contact"
+              href="/get-started"
               className="btn-primary"
               onClick={() => {
                 if (window.gtag) {
-                  window.gtag('event', 'book_demo_click', {
+                  window.gtag('event', 'get_started_click', {
                     event_category: 'engagement',
                     event_label: 'nav_cta',
                   })
                 }
               }}
             >
-              Book a Demo
+              Get Started
             </Link>
           </div>
 
@@ -102,6 +120,16 @@ export default function Nav() {
               >
                 Home
               </Link>
+              <div className="text-gray-500 text-xs font-semibold uppercase px-3 py-2">
+                Services
+              </div>
+              <Link
+                href="/services"
+                className="text-gray-700 hover:text-brand-teal font-medium transition-colors px-3 py-2 pl-6"
+                onClick={() => setIsOpen(false)}
+              >
+                All Services
+              </Link>
               <Link
                 href="/services/audit"
                 className="text-gray-700 hover:text-brand-teal font-medium transition-colors px-3 py-2 pl-6"
@@ -114,7 +142,21 @@ export default function Nav() {
                 className="text-gray-700 hover:text-brand-teal font-medium transition-colors px-3 py-2 pl-6"
                 onClick={() => setIsOpen(false)}
               >
-                Automation Starter
+                Starter Tier
+              </Link>
+              <Link
+                href="/services/growth"
+                className="text-gray-700 hover:text-brand-teal font-medium transition-colors px-3 py-2 pl-6"
+                onClick={() => setIsOpen(false)}
+              >
+                Growth Tier
+              </Link>
+              <Link
+                href="/services/enterprise"
+                className="text-gray-700 hover:text-brand-teal font-medium transition-colors px-3 py-2 pl-6"
+                onClick={() => setIsOpen(false)}
+              >
+                Enterprise Tier
               </Link>
               <Link
                 href="/contact"
@@ -124,19 +166,19 @@ export default function Nav() {
                 Contact
               </Link>
               <Link
-                href="/contact"
+                href="/get-started"
                 className="btn-primary mx-3"
                 onClick={() => {
                   setIsOpen(false)
                   if (window.gtag) {
-                    window.gtag('event', 'book_demo_click', {
+                    window.gtag('event', 'get_started_click', {
                       event_category: 'engagement',
                       event_label: 'mobile_nav_cta',
                     })
                   }
                 }}
               >
-                Book a Demo
+                Get Started
               </Link>
             </div>
           </div>

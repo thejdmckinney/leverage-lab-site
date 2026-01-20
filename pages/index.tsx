@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import ServiceCard from '@/components/ServiceCard'
@@ -10,18 +11,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Leverage Lab | Streamline. Automate. Elevate.</title>
+        <title>AI & Automation Services Dallas-Fort Worth | Leverage Lab</title>
         <meta
           name="description"
-          content="Practical AI and workflow automation that saves hours of admin every week — built for contractors, retailers and local service businesses."
+          content="Professional AI and workflow automation services in Dallas-Fort Worth (DFW). Save 10-15 hours weekly with proven automation solutions for contractors, retailers, and service businesses. Serving Dallas, Fort Worth, Plano, Frisco & DFW metroplex."
         />
+        <meta name="keywords" content="automation services Dallas, AI consulting DFW, workflow automation Fort Worth, business automation Dallas, AI services Dallas-Fort Worth, process automation DFW" />
         <meta
           property="og:title"
-          content="Leverage Lab | Streamline. Automate. Elevate."
+          content="AI & Automation Services Dallas-Fort Worth | Leverage Lab"
         />
         <meta
           property="og:description"
-          content="Practical AI and workflow automation that saves hours of admin every week — built for contractors, retailers and local service businesses."
+          content="Professional AI and workflow automation services in Dallas-Fort Worth. Save 10-15 hours weekly with proven automation solutions. Serving the entire DFW metroplex."
         />
         <meta property="og:image" content="/og-image.png" />
         <meta property="og:url" content="https://leveragelab.co" />
@@ -111,24 +113,55 @@ export default function Home() {
         {/* Services Snapshot */}
         <section className="section-padding bg-gray-50">
           <div className="container-custom">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">
               Our Services
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+              From one-time audits to comprehensive monthly retainers, we have a solution for every business size and automation need.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-8">
               <ServiceCard
                 title="Automation Audit"
-                description="Perfect for businesses ready to explore automation. We'll identify quick wins and build a roadmap for your operations."
+                description="Start with a comprehensive analysis. Identify 5-10 automation opportunities ranked by ROI. One-time engagement."
                 icon="🔍"
                 link="/services/audit"
                 linkText="Learn More →"
               />
               <ServiceCard
-                title="Automation Starter"
-                description="Ready to implement? We'll build and deploy custom automations that run reliably and save you hours every week."
-                icon="🚀"
-                link="/services/starter"
-                linkText="Learn More →"
+                title="Monthly Retainers"
+                description="Ongoing automation and AI support from $500-$3,000/month. Starter, Growth, and Enterprise tiers available."
+                icon="�"
+                link="/services"
+                linkText="View All Tiers →"
               />
+              <ServiceCard
+                title="Custom Solutions"
+                description="Need something specific? We offer custom AI implementations, integrations, and enterprise transformation projects."
+                icon="⚙️"
+                link="/get-started"
+                linkText="Let's Talk →"
+              />
+            </div>
+            <div className="text-center">
+              <Link
+                href="/services"
+                className="inline-flex items-center text-brand-teal hover:text-brand-aqua font-semibold text-lg transition-colors"
+              >
+                View All Services & Pricing
+                <svg
+                  className="w-5 h-5 ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </Link>
             </div>
           </div>
         </section>
