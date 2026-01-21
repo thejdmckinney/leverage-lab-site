@@ -11,9 +11,9 @@ export default function ChatbotBuilds() {
         <title>Custom Chatbot Development Dallas-Fort Worth | Leverage Lab</title>
         <meta
           name="description"
-          content="Professional AI-powered chatbot development for Dallas-Fort Worth businesses. Custom chatbots built with Tawk.to for 24/7 customer support, lead generation, and sales automation. Serving DFW contractors, retailers & service businesses."
+          content="Professional AI-powered chatbot development for Dallas-Fort Worth businesses. Custom chatbots for 24/7 customer support, lead generation, and sales automation. Serving DFW contractors, retailers & service businesses."
         />
-        <meta name="keywords" content="chatbot development Dallas, AI chatbot DFW, customer service automation Fort Worth, chatbot builder Dallas, tawk.to integration DFW" />
+        <meta name="keywords" content="chatbot development Dallas, AI chatbot DFW, customer service automation Fort Worth, chatbot builder Dallas, AI automation DFW" />
         <link rel="canonical" href="https://leveragelab.co/services/chatbot" />
       </Head>
 
@@ -21,7 +21,7 @@ export default function ChatbotBuilds() {
 
       <Hero
         title="AI-Powered Chatbot Builds"
-        subtitle="24/7 automated customer support and lead generation with custom chatbots powered by Tawk.to"
+        subtitle="24/7 automated customer support and lead generation with custom AI chatbots"
         ctaText="Get Your Chatbot"
         ctaLink="/contact"
         showSecondary={false}
@@ -139,7 +139,7 @@ export default function ChatbotBuilds() {
                       Custom Chatbot Development
                     </h3>
                     <p className="text-gray-600">
-                      Fully customized chatbot built on Tawk.to platform with your branding, conversation flows, and business logic. Handles FAQs, lead qualification, appointment booking, and more.
+                      Fully customized chatbot built with your branding, conversation flows, and business logic. Handles FAQs, lead qualification, appointment booking, and more.
                     </p>
                   </div>
                 </div>
@@ -337,7 +337,7 @@ export default function ChatbotBuilds() {
                 </div>
                 <div className="flex items-start justify-between p-4 bg-gray-50 rounded-lg">
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Tawk.to Platform (Optional)</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1">Chatbot Platform (Optional)</h3>
                     <p className="text-sm text-gray-600">Free forever or upgrade to paid plans for advanced features</p>
                   </div>
                   <div className="text-right">
@@ -438,7 +438,7 @@ export default function ChatbotBuilds() {
                     Will this work with my existing website?
                   </h3>
                   <p className="text-gray-600">
-                    Yes! Tawk.to works with any website platform - WordPress, Shopify, Wix, custom sites, etc. We handle all the technical integration. It's mobile-responsive and won't slow down your site.
+                    Yes! Our chatbots work with any website platform - WordPress, Shopify, Wix, custom sites, etc. We handle all the technical integration. It's mobile-responsive and won't slow down your site.
                   </p>
                 </div>
 

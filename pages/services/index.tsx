@@ -399,7 +399,7 @@ export default function Services() {
                     Chatbot Builds
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    AI-powered chatbots for 24/7 customer support and lead generation, powered by Tawk.to
+                    AI-powered chatbots for 24/7 customer support and lead generation
                   </p>
                 </div>
 
