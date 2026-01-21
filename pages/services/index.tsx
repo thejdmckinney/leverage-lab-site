@@ -361,11 +361,200 @@ export default function Services() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
+        {/* Specialized Services */}
+        <section className="section-padding bg-gray-50">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Specialized Services
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Custom-built solutions for specific business needs.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Chatbot Builds */}
+              <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+                <div className="mb-6">
+                  <div className="bg-brand-teal/10 rounded-lg p-3 w-fit mb-4">
+                    <svg
+                      className="w-8 h-8 text-brand-teal"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    Chatbot Builds
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    AI-powered chatbots for 24/7 customer support and lead generation, powered by Tawk.to
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-gray-600">Starting at</span>
+                    <div className="text-3xl font-bold text-brand-teal">
+                      $1,500
+                    </div>
+                  </div>
+                  <p className="text-sm text-gray-500 mb-4">
+                    One-time setup + optional monthly support
+                  </p>
+
+                  <p className="text-sm font-semibold text-gray-900 mb-3">
+                    KEY FEATURES:
+                  </p>
+                  <ul className="space-y-2 mb-6">
+                    {[
+                      'Custom chatbot development',
+                      'AI training on your business',
+                      'Website integration',
+                      'Lead capture & analytics',
+                      '24/7 automated support',
+                    ].map((item, index) => (
+                      <li key={index} className="flex items-start text-sm">
+                        <svg
+                          className="w-4 h-4 text-brand-teal mr-2 flex-shrink-0 mt-0.5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="flex gap-2">
+                  <Link
+                    href="/services/chatbot"
+                    className="btn-secondary flex-1 text-center text-sm py-2"
+                  >
+                    Learn More
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="btn-primary flex-1 text-center text-sm py-2"
+                  >
+                    Get Started
+                  </Link>
+                </div>
+              </div>
+
+              {/* Website Builds */}
+              <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+                <div className="mb-6">
+                  <div className="bg-brand-teal/10 rounded-lg p-3 w-fit mb-4">
+                    <svg
+                      className="w-8 h-8 text-brand-teal"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    Website Builds
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Modern, lightning-fast websites built with Next.js and deployed on Vercel
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-gray-600">Starting at</span>
+                    <div className="text-3xl font-bold text-brand-teal">
+                      $2,500
+                    </div>
+                  </div>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Complete website + hosting included
+                  </p>
+
+                  <p className="text-sm font-semibold text-gray-900 mb-3">
+                    KEY FEATURES:
+                  </p>
+                  <ul className="space-y-2 mb-6">
+                    {[
+                      'Custom website design',
+                      'Mobile-responsive',
+                      'SEO optimized',
+                      'Lightning-fast loading',
+                      'Contact forms & analytics',
+                    ].map((item, index) => (
+                      <li key={index} className="flex items-start text-sm">
+                        <svg
+                          className="w-4 h-4 text-brand-teal mr-2 flex-shrink-0 mt-0.5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="flex gap-2">
+                  <Link
+                    href="/services/website"
+                    className="btn-secondary flex-1 text-center text-sm py-2"
+                  >
+                    Learn More
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="btn-primary flex-1 text-center text-sm py-2"
+                  >
+                    Get Started
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Monthly Retainer Comparison */}
+        <section className="section-padding">
+          <div className="container-custom">
             {/* Comparison Table */}
             <div className="bg-white rounded-xl shadow-lg p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-                Compare All Tiers
+                Compare Monthly Retainer Tiers
               </h3>
               <div className="overflow-x-auto">
                 <table className="w-full">
